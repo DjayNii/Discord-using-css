@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    height: 1000px;
+ }
+ .header{
+     background-color:  rgba(0, 0, 0, 0.9);
+     color: white;
+     display: flex;
+     flex-direction: row;
+     height: 50px;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+ }
+
+ .home{
+     width: 50px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bold;
+ }
+
+ .discordLogo{
+    width:50px;
+    color: white;
+ }
+
+ .searchBar{
+     flex: 1;
+     margin-left: 200px;
+     margin-right: 200px;
+     height: 40px;
+     min-width: 100px;
+ }
+ .sB{
+    width: 100%;
+    height: 100%; 
+    border-radius: 25px;
+    padding: 15px;
+    border: none;
+    background-color: rgba(32,34,37,255);
+ }
+ .sB::placeholder{
+    color: grey;
+ }
+
+ .moreicons{
+     height: 35px;
+ }
+
+ .bellIcon,.pinIcon,.userIcon{
+    width: 30px;
+    margin-right: 30px ;
+ }
+
+
+
+
+

@@ -1,0 +1,85 @@
+.sideBar{
+    position: fixed;
+    left: 0;
+    top: 70px;
+    bottom: 0;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.s1{
+    width: 100px;
+    background-color: rgba(32,34,37,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baligeeeth{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.doof , .phineas{
+    width: 70px;
+    border-radius: 300px;
+    margin-bottom: 20px;
+}
+
+.s2{
+    width: 230px;
+    background-color:rgba(47,49,54,255);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.s2Text{
+    display: grid;
+    grid-template-columns: 1fr  40px;
+}
+
+.info{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.plus{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-right: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: rgb(131, 131, 131);
+}
+
+.s2SubText{
+    display: grid;
+    grid-template-rows: 20px 20px 20px;
+    grid-row-gap: 25px;
+}
+
+.ST2,.ST3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(131, 131, 131);
+    font-size: 20px;
+    margin-right:10px ;
+}
+
+.ST1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(131, 131, 131);
+    height: 35px;
+    font-size: 20px;
+    background-color: rgba(66,70,77,255);
+}
+
